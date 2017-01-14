@@ -1,0 +1,76 @@
+.bg-video video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+#video-logo-nav {
+    background: #000;
+    opacity: 0.5;
+}
+
+#video-logo-nav, #youtube-tab-menu {
+    height:98px;
+}
+
+#video-logo-nav .nav-wrapper,  #youtube-tab-menu i,  #video-logo-nav ul li i {
+    line-height: 98px;
+    font-size: 30px;
+}
+
+#video-logo-nav .nav-wrapper a {
+    color:#fff;
+}
+
+#youtube-tab-menu {
+    bottom: -20px;
+}
+
+#youtube-tab-menu .btn-floating {
+    width:60px;
+    height:60px;
+    line-height:60px;
+}
+
+#youtube-tab-menu .btn-floating i {
+    line-height:60px;
+}
+
+#video-search-nav, #video-search-nav label i, #video-search-nav i {
+    display: none;
+    position:absolute;
+    top:0;
+    z-index:10;
+    height:98px;
+    line-height:98px;
+}
+
+#youtube-contents-container {
+    position: absolute;
+    top:98px;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0,0,0,0.2);
+}
+
+#youtube-contents-container .progress {
+    /*display: none;*/
+    height: 1px;
+    margin-top:0;
+    background:#fff;
+}
+
+.progress {
+    display: none;
+}
+
+.progress .indeterminate {
+    background:red;
+}
